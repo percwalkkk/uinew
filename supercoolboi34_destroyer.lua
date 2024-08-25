@@ -1,4 +1,4 @@
--- // some cool script i made as anti aim
+-- // some cool script i made
 
 
 getgenv().desyncenabled = true 
