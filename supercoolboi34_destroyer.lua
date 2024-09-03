@@ -62,7 +62,7 @@ end))
 
 
 userinputservice.InputBegan:Connect(function(input)
-    if input.KeyCode == Enum.KeyCode.X then  -- Press 'X' to toggle "desync"
+    if input.KeyCode == Enum.KeyCode.X then  -- Press 'X' to toggle "desync" or wtv you guys call this
         getgenv().desyncenabled = not getgenv().desyncenabled
         if not getgenv().desyncenabled and localplayer.Character and storedcframe then
             localplayer.Character.HumanoidRootPart.CFrame = storedcframe
