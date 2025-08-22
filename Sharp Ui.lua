@@ -824,7 +824,7 @@ do
 
 			local Logo = Instance.new("ImageLabel")
 			Logo.Name = "Logo"
-			Logo.Image = "http://www.roblox.com/asset/?id=138458025642388"
+			Logo.Image = "http://www.roblox.com/asset/?id=125130621718335"
 			Logo.ScaleType = Enum.ScaleType.Fit
 			Logo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 			Logo.BackgroundTransparency = 1
